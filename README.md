@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## HTML, CSS, and Javascript for Web DevelopersJohns Hopkins University
 
 You can use the [editor on GitHub](https://github.com/cold0/coursera_html-css-javascript-for-web-developers/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
 
