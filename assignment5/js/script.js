@@ -86,13 +86,9 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
             homeHtmlUrl,
             function(homeHtml) {
                 var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
-                var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
-
-
-                // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
-                // Use the existing insertHtml function for that purpose. Look through this code for an example
-                // of how to do that.
-                // 
+                // console.log("'" + "randomCategoryShortName" + "'");
+                var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
+                console.log(homeHtmlToInsertIntoMainPage);
                 insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
 
             },
